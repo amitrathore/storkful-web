@@ -117,6 +117,23 @@ export default function Home() {
           <p className="mt-3 text-xs text-ink/50">no spam, just storks ✦</p>
         </section>
 
+        {/* Video */}
+        <section className="relative mx-auto mt-24 w-full max-w-4xl">
+          <div className="absolute -inset-2 rounded-[2rem] bg-gradient-to-tr from-acid via-electric to-bubblegum blur-xl opacity-60" />
+          <div className="relative overflow-hidden rounded-[1.5rem] border-2 border-ink bg-ink shadow-[8px_8px_0_0_var(--color-ink)]">
+            <div className="relative aspect-video w-full">
+              <iframe
+                className="absolute inset-0 size-full"
+                src="https://www.youtube-nocookie.com/embed/Dmdcs0W8JaI?rel=0&loop=0&controls=1&cc_load_policy=0&autoplay=0"
+                title="Storkful"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              />
+            </div>
+          </div>
+        </section>
+
         {/* Agency card */}
         <section className="relative mx-auto mt-24 w-full max-w-3xl">
           <div className="absolute -inset-1 rounded-[2rem] bg-gradient-to-br from-bubblegum via-tangerine to-electric blur-md opacity-60" />
